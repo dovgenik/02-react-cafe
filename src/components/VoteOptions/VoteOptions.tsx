@@ -3,8 +3,8 @@ import css from './VoteOptions.module.css'
 import type {VoteType} from "../../types/votes.ts"
 
 interface VoteOptionsProps {
-     onVote: (x: VoteType)=> (void);
-    onReset: ()=> (void);
+     onVote: (x: VoteType)=> void;
+    onReset: ()=> void;
     canReset: boolean;
 
 }
